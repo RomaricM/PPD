@@ -22,4 +22,4 @@ Enfin, le système est évolutif. En effet, il est possible d'ajouter ou de supp
 
 Le projet n'est pas entièrement terminé mais est tout de même bien avancé. N'hésitez pas à consulter le [rapport](https://github.com/Ciramort/PPD/blob/master/documents/rapport/rapport.pdf) pour plus d'informations.
 
-<img src="https://github.com/Ciramort/PPD/blob/master/ressources/photos/systeme_alarme_1_min.jpg" alt="Photo du système 1" /><img src="https://github.com/Ciramort/PPD/blob/master/ressources/photos/systeme_alarme_2_min.jpg" alt="Photo du système 2" />
+![Photo du système 1](https://github.com/Ciramort/PPD/blob/master/ressources/photos/systeme_alarme_1_min.jpg?raw=true) ![Photo du système 1](https://github.com/Ciramort/PPD/blob/master/ressources/photos/systeme_alarme_2_min.jpg?raw=true)

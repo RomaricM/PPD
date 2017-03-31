@@ -2,7 +2,7 @@
 
 ![Logo de PPD](https://raw.githubusercontent.com/Ciramort/PPD/master/ressources/images/logos_ppd/logo_ppd_v1.png)
 
-**_Site web_ (bientôt) | _Application Android_ (bientôt) | [Rapport](https://github.com/Ciramort/PPD/blob/master/documents/rapport/rapport.pdf)**
+**_Site web_ (bientôt) / _Application Android_ (bientôt) / [Rapport](https://github.com/Ciramort/PPD/blob/master/documents/rapport/rapport.pdf)**
 
 # À propos
 

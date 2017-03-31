@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Logo de PPD](https://raw.githubusercontent.com/Ciramort/PPD/master/ressources/images/logo/logo_ppd_v1.png)
+![Logo de PPD](https://raw.githubusercontent.com/Ciramort/PPD/master/ressources/images/logos_ppd/logo_ppd_v1.png)
 
 # À propos
 

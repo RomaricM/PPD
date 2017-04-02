@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/fond_android">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="0dp"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/libhistoalertetitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="547dp"
+        android:layout_y="88dp"
+        android:text="Historique"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="224dp"
+        android:layout_height="338dp"
+        android:layout_x="851dp"
+        android:layout_y="183dp" >
+
+        <RadioButton
+            android:id="@+id/radbtnhisto0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Alerte 1" />
+
+        <RadioButton
+            android:id="@+id/radbtnhisto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alerte 2" />
+
+        <RadioButton
+            android:id="@+id/radbtnhisto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alerte 3" />
+
+        <RadioButton
+            android:id="@+id/radbtnhisto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alerte 4" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="385dp"
+        android:layout_height="335dp"
+        android:layout_x="240dp"
+        android:layout_y="183dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnvoirhistoalerte"
+        android:layout_width="460dp"
+        android:layout_height="wrap_content"
+        android:layout_x="450dp"
+        android:layout_y="546dp"
+        android:text="Voir Alerte" />
+
+</AbsoluteLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_android" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="564dp"
+        android:layout_y="103dp"
+        android:text="Profil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/txtmdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="243dp"
+        android:layout_y="335dp"
+        android:text="Mot De Passe"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/liblogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="570dp"
+        android:layout_y="216dp"
+        android:text="libelle"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnmodifmdp"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_x="768dp"
+        android:layout_y="318dp"
+        android:text="Modifier Le Mot De Passe" />
+
+    <Button
+        android:id="@+id/btnmodifemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="816dp"
+        android:layout_y="428dp"
+        android:text="Modifer l&apos;email" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="302dp"
+        android:layout_y="227dp"
+        android:text="Login"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="308dp"
+        android:layout_y="428dp"
+        android:text="E-mail"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/libmdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="555dp"
+        android:layout_y="322dp"
+        android:text="libmdp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/libemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="561dp"
+        android:layout_y="432dp"
+        android:text="TextView"
+        android:textSize="30dp" />
+
+</AbsoluteLayout>

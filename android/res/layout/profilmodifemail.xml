@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_android"  >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="329dp"
+        android:layout_y="141dp"
+        android:text="Modifier votre Email :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="3dp"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="317dp"
+        android:layout_y="289dp"
+        android:text="Ancien Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittxtancienemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="629dp"
+        android:layout_y="299dp"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="306dp"
+        android:layout_y="375dp"
+        android:text="Nouvel Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittxtnouvemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="633dp"
+        android:layout_y="385dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="466dp"
+        android:text="Confirmer Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittxtconfemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="627dp"
+        android:layout_y="478dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>

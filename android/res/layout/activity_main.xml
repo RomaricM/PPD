@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ppd_alarme5.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/fond_android" >
+
+    <TextView
+        android:id="@+id/LibLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="Login"
+        android:textSize="40dp" 
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/saisielogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:id="@+id/LibMdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mot de Passe"
+        android:textSize="40dp" 
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/saisiemdp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="630dp"
+        android:layout_marginTop="400dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="Se Connecter"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="500dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520dp"
+        android:layout_marginTop="150dp"
+        android:text="Connexion"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/liberr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textSize="50dp" />
+
+</FrameLayout>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"  >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="3dp"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/lib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="277dp"
+        android:layout_y="135dp"
+        android:text="Description alerte : "
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="751dp"
+        android:layout_y="134dp"
+        android:text="TextView"
+        android:textSize="50dp" />
+
+</AbsoluteLayout>

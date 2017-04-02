@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_android" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="-1dp"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="245dp"
+        android:layout_y="149dp"
+        android:text="Information Appareil : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/libapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="786dp"
+        android:layout_y="151dp"
+        android:text="TextView"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btnstream"
+        android:layout_width="440dp"
+        android:layout_height="82dp"
+        android:layout_x="415dp"
+        android:layout_y="362dp"
+        android:text="Streaming" />
+
+</AbsoluteLayout>

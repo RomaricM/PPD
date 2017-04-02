@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_android" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="1dp"
+        android:src="@drawable/logo_ppd_v2" />
+
+    <TextView
+        android:id="@+id/libindextitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="596dp"
+        android:layout_y="98dp"
+        android:text="Menu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btnindexlistcam"
+        android:layout_width="450dp"
+        android:layout_height="78dp"
+        android:layout_x="428dp"
+        android:layout_y="198dp"
+        android:text="Liste des caméras" />
+
+    <Button
+        android:id="@+id/btnindexhisto"
+        android:layout_width="445dp"
+        android:layout_height="74dp"
+        android:layout_x="431dp"
+        android:layout_y="301dp"
+        android:text="Historique des Alertes" />
+
+    <Button
+        android:id="@+id/btnnotif"
+        android:layout_width="444dp"
+        android:layout_height="71dp"
+        android:layout_x="431dp"
+        android:layout_y="411dp"
+        android:text="Notifications d&apos;alertes" />
+
+    <Button
+        android:id="@+id/btnindexprofil"
+        android:layout_width="432dp"
+        android:layout_height="69dp"
+        android:layout_x="436dp"
+        android:layout_y="510dp"
+        android:text="Profil" />
+
+</AbsoluteLayout>
